@@ -39,13 +39,14 @@ func main() {
 	}
 
 	opts := &util.GeneratorOptions{
-		ProviderName:         "oci",
-		ProviderNameOriginal: "oci",
-		ProviderData:         oci.Provider().(*schema.Provider),
-		ProviderImportPath:   "github.com/terraform-providers/terraform-provider-oci/oci",
-		Version:              "v1alpha1",
-		APIsPath:             apisPath,
-		ControllerPath:       controllerPath,
+		ProviderName:             "oci",
+		ProviderNameOriginal:     "oci",
+		ProviderData:             oci.Provider().(*schema.Provider),
+		ProviderGetterMethodBody: `oci.Provider().(*tfschema.Provider)`,
+		ProviderImportPath:       "github.com/terraform-providers/terraform-provider-oci/oci",
+		Version:                  "v1alpha1",
+		APIsPath:                 apisPath,
+		ControllerPath:           controllerPath,
 	}
 	err := util.Generate(opts)
 	if err != nil {
