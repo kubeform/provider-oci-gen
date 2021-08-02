@@ -6,5 +6,5 @@ require (
 	github.com/hashicorp/terraform-plugin-sdk v1.17.2
 	github.com/terraform-providers/terraform-provider-oci v1.0.19-0.20210728215100-1834b1ae4672
 	k8s.io/apimachinery v0.21.3
-	kubeform.dev/generator-v1 v0.0.0-20210801123605-15f6a0d70f16
+	kubeform.dev/generator-v1 v0.0.2-0.20210802143946-0cda4122f6cc
 )
