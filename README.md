@@ -3,7 +3,7 @@
 
 # Kubeform Oracle Cloud Infrastructure Provider Code Generator
 
-Kubeform controller for [Terraform Oracle Cloud Infrastructure Provider](https://github.com/terraform-providers/terraform-provider-oci)
+Kubeform code generator for [Terraform Oracle Cloud Infrastructure Provider](https://github.com/terraform-providers/terraform-provider-oci)
 
 ## Installation
 
