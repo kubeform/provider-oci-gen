@@ -3,7 +3,7 @@
 
 # Kubeform Oci Provider Code Generator
 
-Generates code for Kubeform Oci Provider
+Kubeform controller for [Terraform Oracle Cloud Infrastructure Provider](https://github.com/terraform-providers/terraform-provider-oci)
 
 ## Installation
 
