@@ -44,6 +44,7 @@ func main() {
 		ProviderData:             oci.Provider().(*schema.Provider),
 		ProviderGetterMethodBody: `oci.Provider().(*tfschema.Provider)`,
 		ProviderImportPath:       "github.com/terraform-providers/terraform-provider-oci/oci",
+		ProviderConfig:           "hashicorp/oci",
 		Version:                  "v1alpha1",
 		APIsPath:                 apisPath,
 		ControllerPath:           controllerPath,
