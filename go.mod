@@ -8,3 +8,5 @@ require (
 	k8s.io/apimachinery v0.21.3
 	kubeform.dev/generator-v1 v0.0.11
 )
+
+replace github.com/terraform-providers/terraform-provider-oci => github.com/kubeform/terraform-provider-oci kubeform-v4.66.0
