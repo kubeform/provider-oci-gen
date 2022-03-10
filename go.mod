@@ -9,4 +9,4 @@ require (
 	kubeform.dev/generator-v1 v0.0.12
 )
 
-replace github.com/terraform-providers/terraform-provider-oci => github.com/kubeform/terraform-provider-oci v1.0.19-0.20220309065736-b6389c94b828
+replace github.com/terraform-providers/terraform-provider-oci => github.com/kubeform/terraform-provider-oci db512853402fad45201b968940ec5f06e00a4601
